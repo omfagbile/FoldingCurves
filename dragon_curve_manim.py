@@ -36,9 +36,8 @@ class DragonCurveEvolution(Scene):
     def construct(self):        
         # parameter, feel free to change!
         length = 5 # length of zeroth generation
-        order = 5 # last generation
-        #rules = {"A": "A+B", "B": "A-B"} # Heighway's dragon
-        rules = {"A": "A+B+A-B-A-B+A-B+A", "B": "B-A+B-A+B+A+B-A-B"} # Helena's dragon
+        order = 15 # last generation
+        rules = {"A": "A+B", "B": "A-B"} # Heighway's dragon
         angle = 180 - 90 # folding angle
 
         # draw
@@ -46,8 +45,7 @@ class DragonCurveEvolution(Scene):
         initial_angle = 0
         for gen in range(order+1):
             # compute parameters for this generation
-            #factor = 1 / (2 * np.cos(np.radians(angle/ 2)))
-            factor = 1/3
+            factor = 1 / (2 * np.cos(np.radians(angle/ 2)))
             step = length * (factor**gen)
             instruction = folding_instruction(gen, rules)
             curve = draw_instruction(instruction, step, initial_angle, angle)
@@ -59,7 +57,7 @@ class DragonCurveEvolution(Scene):
                 curve = previous_curve  
 
             previous_curve = curve
-            #initial_angle -= angle/2
+            initial_angle -= angle/2
             
         self.wait(2)
 
