@@ -1,4 +1,5 @@
 from dragonlib import *
+from turtle import *
 
 def draw(command, step, initial_angle, left_angle, right_angle):
     right(initial_angle)
