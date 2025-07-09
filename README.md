@@ -1,3 +1,3 @@
 Based on this paper: https://www.sciencedirect.com/science/article/pii/S0304397525003019
 
-Usage of dragon_curve_manim.py: run "manim -pql dragon_curve_manim.py DragonCurveEvolution" in terminal in appropriate directory
+Usage of manim_dragon.py: run "manim -pql manim_dragon.py DragonCurveEvolution" in terminal in appropriate directory (requires numpy and manim: https://www.manim.community)
