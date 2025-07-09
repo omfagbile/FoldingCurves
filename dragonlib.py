@@ -1,5 +1,4 @@
 import numpy as np
-from turtle import *
 import sys
 
 sys.setrecursionlimit(10000) # Increase recursion limit (just in case, not strictly needed here)
