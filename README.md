@@ -11,5 +11,10 @@ This repository accompanies my Undergraduate Research Support Scheme (URSS) proj
 - **Output folder:** Contains generated images and data from analyses.
 
 
-Graph directed construction of the boundary of Heighway's dragon:
+## Nice pictures
+
 ![Graph directed construction of the boundary of Heighway's dragon](output/example1/graph-direct%20construction%20of%20Heighway's%20dragon%20boundary.jpg)
+
+![](output/example2/graph-direct%20construction.jpg)
+
+![](output/example4/graph-directed_construction.jpg)
