@@ -2,7 +2,7 @@
 
 A collection of tools for visualising & analysing folding curves.
 
-This repository accompanies the Undergraduate Research Support Scheme (URSS) project “The Hausdorff dimension of the boundaries of self-avoiding plane-filling square-grid folding curves” conducted at the University of Warwick under the supervision of Dr Helena Verrill.
+This repository accompanies my Undergraduate Research Support Scheme (URSS) project titled “The Hausdorff dimension of the boundaries of self-avoiding plane-filling square-grid folding curves” conducted at the University of Warwick under the supervision of Dr Helena Verrill.
 
 ## Features
 
