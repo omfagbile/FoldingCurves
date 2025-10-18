@@ -9,6 +9,7 @@ This repository accompanies my Undergraduate Research Support Scheme (URSS) proj
 - **Jupyter notebook:** The main notebook `Boundaries of square-grid folding curves.ipynb` explains the underlying theory, new results, and demonstrates code implementation.
 - **Python library (foldingcurves/):** Core functions to generate and analyze folding curves.
 - **Output folder:** Contains generated images and data from analyses.
+- **manim_dragon.py**: used manim to create paper folding animations. See manim documentation for usage details.
 
 
 ## Nice pictures
